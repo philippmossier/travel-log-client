@@ -16,7 +16,7 @@ const App = () => {
     zoom: 3
   });
 
-  // you cant make your effects async, you have to do a  Immediately-Invoked Function Expression (IIFE)
+  // you cant make your effects async, you have to do a  Immediately-Invoked Function Expression (IIFE).
   useEffect(() => {
   (async ()=>{
     const logEntries = await listLogEntries();
